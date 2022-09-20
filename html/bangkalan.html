@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wisata Bangkalan</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/gambar.css" />
+    <link rel="stylesheet" href="../css/searchFas.css" />
+    <script src="../js/searchBangkalan.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="wrapper">
+        <div class="logo"><a href="">Wisata Bangkalan</a></div>
+        <div class="menu">
+          <ul>
+            <li><a href="../index.html">Back</a></li>
+            <li><a href="../index.html">Destination</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="../index.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- search -->
+    <div class="wrapper">
+      <fieldset>
+          <legend>Select The Requered Facilities</legend>
+
+          <ul>
+              <li>
+                  <input type="checkbox" name="facilities" id="toilet" value="toilet" />
+                  <label for="toilet">Toilet</label>
+              </li>
+              <li>
+                  <input type="checkbox" name="facilities" id="ibadah" value="ibadah" />
+                  <label for="ibadah">Tempat Ibadah</label>
+              </li>
+              <li>
+                  <input type="checkbox" name="facilities" id="main" value="main" />
+                  <label for="main">Tempat Bermain</label>
+              </li>
+              <li>
+                  <input type="checkbox" name="facilities" id="penginapan" value="penginapan" />
+                  <label for="penginapan">Penginapan</label>
+              </li>
+              <li>
+                  <input type="checkbox" name="facilities" id="parkir" value="parkir" />
+                  <label for="parkir">Tempat Parkir</label>
+              </li>
+              <li>
+                  <input type="checkbox" name="facilities" id="resto" value="resto" />
+                  <label for="resto">Tempat Makan</label>
+              </li>
+              <li>
+                  <button class="btn" onclick="cari()">Select</button>
+              </li>
+          </ul>
+      </fieldset>
+    </div>
+    <!-- akhirsearch -->
+
+    <!-- kota -->
+    <div class="gallery" id="arosbaya">
+      <img src="../img/kota_wisata/bangkalan/arosbaya.jpeg" alt="arosbaya" />
+      <div class="nama">
+        <a target="_blank" href="arosbaya.html">
+          <h3>Aros <br>Baya</h3>
+        </a>
+      </div>
+    </div>
+    </div>
+    <div class="gallery" id="mangrove">
+        <img src="../img/kota_wisata/bangkalan/mangrove.jpg" alt="mangrove" />
+      <div class="nama">
+        <a target="_blank" href="mangrove.html">
+          <h3>Hutan mangrove labuhan </h3>
+        </a>
+      </div>
+    </div>
+    
+  </div>
+    <!-- akhir kota -->
+  </body>
+</html>
