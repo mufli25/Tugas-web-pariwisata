@@ -1,0 +1,50 @@
+h1{
+    margin-top: 45px;
+    text-indent: 30px;
+    padding: 25px 25px 30px 0px;
+    text-decoration: underline;
+    text-align: left;
+    background-color: rgba(252, 252, 252, 0.5);
+}
+body{
+    background-image: url(../img/profile/background.jpg);
+    background-size: cover;
+    font-family: comic sans ms;
+}
+.responsive {
+    display: inline-block;
+    width: 32%;
+    margin: 30px 2px 0px 11px;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 90%;
+        padding-left: 12px;
+    }
+}
+.biodata{
+    padding-top: 25px;
+}
+.gallery {
+    border: 2px solid white;
+    background-color: rgba(252, 252, 252, 0.5);
+    margin-top: 25px;
+    display: flex;
+}
+.gallery:hover{
+    border: 2px solid lightskyblue;
+}
+div.gallery .foto {
+    width: 150px;
+    height: 180px; 
+    margin: 25px;
+    border: 2px solid white;
+} 
+a {
+    color: black;
+    text-decoration: none;
+}
+.gambar {
+    width: 25px;
+    height: 25px; 
+}

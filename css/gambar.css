@@ -1,0 +1,30 @@
+/* untuk bagian gambarnya */
+div.gallery {
+  margin-top: 50px;
+  margin-left: 12px;
+  border: 20px solid blue;
+  float: left;
+  width: 280px;
+  border-image: url(../img/landingpage/bingkai.jpg) 30 round;
+}
+div.gallery img {
+  width: 100%;
+  height: 180px;
+}
+div.nama {
+  padding: 2px;
+  text-align: center;
+  background-color: lightcyan;
+}
+.gambar_akhir {
+  margin-left: 330px;
+}
+
+@media screen and (max-width: 991.98px) {
+  div.gallery {
+    margin-left: 17%;
+  }
+  .gambar_akhir {
+  margin-left: -1%;
+}
+}
